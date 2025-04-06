@@ -16,7 +16,7 @@
           </a>
         </li>
         <li class="w-48">
-          <a href="https://www.youtube.com/@KirillSachkov" class="footer__btn">
+          <a href="https://www.youtube.com/@SachkovTech" class="footer__btn">
             <span class="footer__btn-text">YouTube</span>
             <img src="~/assets/icon/yt.png" alt="ютуб." class="w-5" />
           </a>
@@ -49,7 +49,7 @@
         </a>
       </li>
       <li class="w-48">
-        <a href="https://www.youtube.com/@KirillSachkov" class="footer__btn">
+        <a href="https://www.youtube.com/@SachkovTech" class="footer__btn">
           <span class="footer__btn-text">YouTube</span>
           <img src="~/assets/icon/yt.png" alt="ютуб." />
         </a>
