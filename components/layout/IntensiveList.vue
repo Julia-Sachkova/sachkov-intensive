@@ -127,8 +127,22 @@
 				>
 					Приобрести
 				</a>
+				<div
+					v-if="currentIntensive.sale"
+					class="flex flex-row items-start gap-3"
+				>
+					<span class="text-5xl font-semibold max-[768px]:text-4xl">
+						{{ currentIntensive.sale }} ₽
+					</span>
 
-				<span class="text-5xl font-semibold max-[540px]:text-4xl">
+					<span
+						class="line-through text-3xl max-[768px]:text-2xl text-neutral-500"
+					>
+						{{ currentIntensive.price }} ₽
+					</span>
+				</div>
+
+				<span v-else class="text-5xl font-semibold max-[540px]:text-4xl">
 					{{ currentIntensive.price }} ₽
 				</span>
 			</div>

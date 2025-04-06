@@ -3,9 +3,10 @@ export const intensivies = [
 		id: 0,
 		name: "Архитектура и структура .NET веб-приложений. Проектирование ASP.NET Core сервисов.",
 		price: "14 900 ",
+		sale: "9 900",
 		buyLink: "https://t.me/sachkov_intensive_1_bot",
 		descr:
-			"На этом интенсиве вы с нуля освоите проектирование и разработку современных .NET веб-приложений с использованием ASP.NET Core! Этот интенсив подойдет как для начинающих, так и для опытных разработчиков, которые хотят углубить свои знания в архитектуре, проектировании и создании масштабируемых веб приложений.",
+			"На этом интенсиве вы с нуля освоите проектирование и разработку современных .NET веб-приложений с использованием ASP.NET Core! Этот интенсив подойдет для начинающих разработчиков, которые хотят углубить свои знания в архитектуре, проектировании и создании масштабируемых веб приложений на основе монолитной и модульной архитектуре.",
 		fullDescription: `<div class="flex flex-col gap-4">
         <span class="int__descr-title font-semibold text-2xl">Почему этот интенсив?</span>
 
@@ -31,8 +32,8 @@ export const intensivies = [
          <li>Не упустите возможность прокачать свои навыки и стать специалистом в разработке .NET веб-приложений!</li>
         </ul>
       </div>`,
-		lessonsAmount: 15,
-		duration: 13,
+		lessonsAmount: 16,
+		duration: 14,
 		programm: [
 			{
 				label: "Урок 1. Продумывание идеи и проектирование проекта",
@@ -269,6 +270,16 @@ export const intensivies = [
 				content: `<ul class="int-list">
                     <li class="programm-span">Пушим прошлую задачу в github</li>
                     <li class="programm-span">Настриваем Github actions</li>
+                </ul>`,
+			},
+			{
+				label:
+					"Урок 15. Mediatr - зачем он нужен и почему лучше его не использовать. Cross-cutting concerns. Декораторы",
+				content: `<ul class="int-list">
+                    <li class="programm-span">Что такое Mediatr</li>
+                    <li class="programm-span">Внедрение Mediatr в проект</li>
+                    <li class="programm-span">Behaviors, Cross-cutting concerns</li>
+                    <li class="programm-span">Декораторы</li>
                 </ul>`,
 			},
 		],
